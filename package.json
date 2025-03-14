@@ -5,7 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "build": "npm run build",
+    "build": "echo 'No build step needed'",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
