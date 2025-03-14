@@ -5,7 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "build": "echo 'No build step needed'",
+    "build": "vercel build",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "vercel": "^41.4.1"
   }
 }
